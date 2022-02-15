@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button {
+    margin: 2px;
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+    cursor: pointer;
+    background: rgb(52, 161, 152);
+    border: none;
+    color: white;
+
+}
+
+.textview {
+    margin: 0px;
+    padding: 5px;
+    width: 260px;
+    font-size: 25px;
+    border: black;
+    color: rgb(23, 35, 199);
+}
+
+.bg {
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+body {
+    height: 95vh;
+    width: 96vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(https://wallpaperaccess.com/full/427852.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
